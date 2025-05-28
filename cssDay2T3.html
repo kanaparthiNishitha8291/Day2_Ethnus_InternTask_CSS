@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Vertical Navigation Bar */
+    .vertical-nav {
+      width: 200px;
+      background-color: lightblue;
+      padding: 0;
+      border: 1px solid black;
+    }
+
+    .vertical-nav a {
+      display: block;
+      color: blue;
+      padding: 12px;
+      text-decoration: none;
+    }
+
+    .vertical-nav a.home {
+      background-color: orange;
+      color: white;
+      font-weight: bold;
+    }
+
+    .vertical-nav a:hover {
+      background-color: #ddd;
+    }
+
+    /* Horizontal Navigation Bar */
+    .horizontal-nav {
+      margin-top: 50px;
+    }
+
+    .horizontal-nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ddd;
+      border: 1px solid gray;
+      display: flex;
+    }
+
+    .horizontal-nav li {
+      flex: 1;
+    }
+
+    .horizontal-nav li a {
+      display: block;
+      color: blue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .horizontal-nav li a.home {
+      background-color: gray;
+      color: white;
+      font-weight: bold;
+    }
+
+    .horizontal-nav li a:hover {
+      background-color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+  <h4>Vertical Navigation Bar</h4>
+  <div class="vertical-nav">
+    <a class="home" href="#">Home</a>
+    <a href="#">Java</a>
+    <a href="#">CSS</a>
+    <a href="#">HTML</a>
+    <a href="#">Bootstrap</a>
+  </div>
+
+  <h4>Horizontal Navigation Bar</h4>
+  <div class="horizontal-nav">
+    <ul>
+      <li><a class="home" href="#">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
